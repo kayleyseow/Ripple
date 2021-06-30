@@ -111,6 +111,44 @@
             </objects>
             <point key="canvasLocation" x="991" y="236"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ifd-RB-nl9">
+            <objects>
+                <viewController id="zhS-uM-the" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Affirmations " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfM-sH-MBa">
+                                <rect key="frame" x="89" y="75" width="212" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oec-E8-Qqg">
+                                <rect key="frame" x="57" y="314" width="266" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">What Are Affirmations? Affirmations are positive statements or reminders one can say to oneself for encouragement and reassurance. Affirmations create small changes that will lead to greater ones in one's mentality and therefore quality and productivity in life. 
+
+
+Affirmations are positive statements or reminders one can say to oneself for encouragement and reassurance. Affirmations create small changes that will lead to greater ones in one's mentality and therefore quality and productivity in life. 
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B7O-mk-Fvj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l2f-PE-cbT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0Q-Ho-UqO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427.6923076923076" y="-1140.2843601895734"/>
+        </scene>
         <!--Affirmations Enter View Controller-->
         <scene sceneID="veA-Y5-Vxx">
             <objects>
@@ -186,6 +224,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="X0X-jH-F7l" kind="presentation" modalPresentationStyle="fullScreen" id="oUg-pY-TQ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xT5-Yy-SO3">
+                                <rect key="frame" x="46" y="175" width="301" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click here to learn more about affirmations! "/>
+                                <connections>
+                                    <segue destination="zhS-uM-the" kind="show" id="I8y-gN-nUO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -285,6 +331,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
