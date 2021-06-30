@@ -95,12 +95,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="affirmation4TextBox:" destination="CfF-5F-i2Z" eventType="editingDidEnd" id="crq-ue-bBU"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Just one more, and you are on your way!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMF-vy-91L">
                                 <rect key="frame" x="27" y="674" width="337" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="affirmation5TextBox:" destination="CfF-5F-i2Z" eventType="editingDidEnd" id="QZh-KU-r3v"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="That was great! Enter your second affimation" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dlu-F1-VcH">
                                 <rect key="frame" x="28" y="337" width="337" height="34"/>
@@ -144,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="994" y="-430"/>
         </scene>
-        <!--View Controller-->
+        <!--Affirmations Display View Controller-->
         <scene sceneID="Sn0-WN-2RF">
             <objects>
-                <viewController id="X0X-jH-F7l" sceneMemberID="viewController">
+                <viewController id="X0X-jH-F7l" customClass="affirmationsDisplayViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qo5-zf-nkb">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +191,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BcA-0e-sdC"/>
+        <segue reference="gEb-LH-sfM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.left" catalog="system" width="96" height="128"/>

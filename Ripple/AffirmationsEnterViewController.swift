@@ -2,7 +2,7 @@
 //  AffirmationsEnterViewController.swift
 //  Ripple
 //
-//  Created by  Scholar on 6/29/21.
+//  Created by  Kayley on 6/29/21.
 //
 
 import UIKit
@@ -20,6 +20,8 @@ class AffirmationsEnterViewController: UIViewController {
     @IBOutlet weak var thirdAffirmationTextBox: UITextField!
     @IBOutlet weak var fourthAffirmationTextBox: UITextField!
     @IBOutlet weak var fifthAffirmationTextBox: UITextField!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,4 +52,11 @@ class AffirmationsEnterViewController: UIViewController {
         affirmation3 = "\(thirdAffirmationTextBox.text)"
     }
     
+    @IBAction func affirmation4TextBox(_ sender: UITextField) {
+        affirmation4 = "\(fourthAffirmationTextBox.text)"
+    }
+    
+    @IBAction func affirmation5TextBox(_ sender: UITextField) {
+        affirmation5 = "\(fifthAffirmationTextBox.text)"
+    }
 }
