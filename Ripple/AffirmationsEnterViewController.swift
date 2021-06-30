@@ -14,7 +14,7 @@ var affirmation4 = ""
 var affirmation5 = ""
 
 class AffirmationsEnterViewController: UIViewController {
-    //This is america :)
+
     @IBOutlet weak var firstAffirmationTextBox: UITextField!
     @IBOutlet weak var secondAffirmationTextBox: UITextField!
     @IBOutlet weak var thirdAffirmationTextBox: UITextField!
@@ -43,22 +43,22 @@ class AffirmationsEnterViewController: UIViewController {
     */
     
     @IBAction func affirmation1TextBox(_ sender: UITextField) {
-        affirmation1 = "\(firstAffirmationTextBox.text)"
+        affirmation1 = "\(firstAffirmationTextBox.text ?? "")"
     }
     
     @IBAction func affirmation2TextBox(_ sender: UITextField) {
-        affirmation2 = "\(secondAffirmationTextBox.text)"
+        affirmation2 = "\(secondAffirmationTextBox.text ?? "")"
     }
     
     @IBAction func affirmation3TextBox(_ sender: UITextField) {
-        affirmation3 = "\(thirdAffirmationTextBox.text)"
+        affirmation3 = "\(thirdAffirmationTextBox.text ?? "")"
     }
     
     @IBAction func affirmation4TextBox(_ sender: UITextField) {
-        affirmation4 = "\(fourthAffirmationTextBox.text)"
+        affirmation4 = "\(fourthAffirmationTextBox.text ?? "")"
     }
     
     @IBAction func affirmation5TextBox(_ sender: UITextField) {
-        affirmation5 = "\(fifthAffirmationTextBox.text)"
+        affirmation5 = "\(fifthAffirmationTextBox.text ?? "")"
     }
 }
