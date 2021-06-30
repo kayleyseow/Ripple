@@ -21,11 +21,13 @@ class AffirmationsEnterViewController: UIViewController {
     @IBOutlet weak var fourthAffirmationTextBox: UITextField!
     @IBOutlet weak var fifthAffirmationTextBox: UITextField!
     
-    
+    var afinput2ok = false
+    var afinput3ok = false
+    var afinput4ok = false
+    var afinput5ok = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
