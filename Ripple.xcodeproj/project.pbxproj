@@ -16,6 +16,7 @@
 		A868BB74268BC505004FFA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A868BB72268BC505004FFA9B /* LaunchScreen.storyboard */; };
 		A868BB7F268BC505004FFA9B /* RippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB7E268BC505004FFA9B /* RippleTests.swift */; };
 		A868BB8A268BC505004FFA9B /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB89268BC505004FFA9B /* RippleUITests.swift */; };
+		A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A868BB85268BC505004FFA9B /* RippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A868BB89268BC505004FFA9B /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUITests.swift; sourceTree = "<group>"; };
 		A868BB8B268BC505004FFA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsEnterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A868BB66268BC504004FFA9B /* SceneDelegate.swift */,
 				A868BB68268BC504004FFA9B /* ViewController.swift */,
 				A868BB6A268BC504004FFA9B /* Main.storyboard */,
+				A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */,
 				A868BB70268BC505004FFA9B /* Assets.xcassets */,
 				A868BB72268BC505004FFA9B /* LaunchScreen.storyboard */,
 				A868BB75268BC505004FFA9B /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A868BB69268BC504004FFA9B /* ViewController.swift in Sources */,
+				A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */,
 				A868BB65268BC504004FFA9B /* AppDelegate.swift in Sources */,
 				A868BB67268BC504004FFA9B /* SceneDelegate.swift in Sources */,
 				A868BB6F268BC504004FFA9B /* Ripple.xcdatamodeld in Sources */,
