@@ -102,40 +102,151 @@
                                     <action selector="affirmation3TextBox:" destination="CfF-5F-i2Z" eventType="editingDidEnd" id="Lta-ce-Slc"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snb-rP-XP1">
+                                <rect key="frame" x="109" y="120" width="172" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Information on Gratitude "/>
+                                <connections>
+                                    <segue destination="ZRd-yN-5d9" kind="show" id="45z-J2-cj1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oVS-ms-l83"/>
                         <color key="backgroundColor" red="0.61348980669999997" green="0.71570986510000001" blue="0.8078567982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BaE-jY-txd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIV-uZ-zWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="991" y="236"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="ifd-RB-nl9">
+        <scene sceneID="77z-NL-6bw">
             <objects>
-                <viewController id="zhS-uM-the" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController id="ZRd-yN-5d9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9E-4K-fhY">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Affirmations " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfM-sH-MBa">
-                                <rect key="frame" x="89" y="75" width="212" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information about Gratitude " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3z-kI-GOD">
+                                <rect key="frame" x="88" y="34" width="215" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oec-E8-Qqg">
-                                <rect key="frame" x="57" y="314" width="266" height="184"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRe-dr-aZs">
+                                <rect key="frame" x="23" y="63" width="351" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">What Are Affirmations? Affirmations are positive statements or reminders one can say to oneself for encouragement and reassurance. Affirmations create small changes that will lead to greater ones in one's mentality and therefore quality and productivity in life. 
-
-
-Affirmations are positive statements or reminders one can say to oneself for encouragement and reassurance. Affirmations create small changes that will lead to greater ones in one's mentality and therefore quality and productivity in life. 
-
-</string>
+                                <string key="text">What is Gratitude?
+According to Oxford Languages, gratitude is “the quality of being thankful; readiness to show appreciation for and to return kindness.” </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeR-NI-xwj">
+                                <rect key="frame" x="26" y="152" width="345" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Why Gratitude Matters:
+Gratitude allows people to form and maintain better relationships with themselves and others. According to Harvard Health, “In positive psychology research, gratitude is strongly and consistently associated with greater happiness. Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships. People feel and express gratitude in multiple ways.” Practicing gratitude is a part of the ripple effect that can lead to a better state of one’s being. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ET-OE-g60">
+                                <rect key="frame" x="26" y="423" width="345" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">How To Do It:
+Gratitude can be expressed in many different ways but one common practice is writing down things, people, and/or experiences that you are grateful for. Reflecting upon gratitude can make such a big difference in your life. Gratitude can also be expressed verbally or mentally! </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-Pp-pqe">
+                                <rect key="frame" x="23" y="573" width="331" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Examples:
+A few things that someone could be thankful for are good health, family/friends, pets, food/water, experiences, specific things that people have said to you or done for you ...the possibilities are endless.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIp-MV-DGh">
+                                <rect key="frame" x="289" y="726" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go Back "/>
+                                <connections>
+                                    <segue destination="cAe-DO-DVt" kind="show" id="ivd-2e-gSg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3dY-wC-ZOh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Igc-rA-69V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cbz-SP-JX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1841.5384615384614" y="264.45497630331755"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ifd-RB-nl9">
+            <objects>
+                <viewController id="zhS-uM-the" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Affirmations " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfM-sH-MBa">
+                                <rect key="frame" x="89" y="29" width="212" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oec-E8-Qqg">
+                                <rect key="frame" x="16" y="44" width="358" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">What Are Affirmations?                                                              Affirmations are positive statements or reminders one can say to oneself for encouragement and reassurance.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-rd-ztg">
+                                <rect key="frame" x="16" y="567" width="358" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Examples: 
+“I make a difference in the world by simply existing in it.” 
+“I am well-prepared and confident in my abilities to take on today’s activities.” 
+“I am brimming with energy and overflowing with joy.”  
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qml-bK-mhH">
+                                <rect key="frame" x="332" y="677" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go Back"/>
+                                <connections>
+                                    <segue destination="CfF-5F-i2Z" kind="show" id="b7G-Tt-MEb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SD-oa-ipo">
+                                <rect key="frame" x="16" y="415" width="358" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">How To Do It: 
+Find the best method that works for you! You can either a) say affirmations out loud in the mirror, b) write them down, or c) repeat them in your head like a mantra.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hJ-JP-P6m">
+                                <rect key="frame" x="16" y="167" width="358" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Why Affirmations Matter: 
+Because your thoughts matter. What you think leads to your actions and what you do determines the outcome of your life. If you’re thinking positive and feeding yourself reassurance, all of that will be conducive to your own individual success. Whether you’re struggling with self-esteem or self-doubt, affirmations that resonate with you will help motivate you to accomplish your goals and exude qualities you desire. Repeating them often will help you make a positive ripple in your life. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -154,7 +265,7 @@ Affirmations are positive statements or reminders one can say to oneself for enc
             <objects>
                 <viewController id="CfF-5F-i2Z" customClass="AffirmationsEnterViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Kb-6D-04q">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgT-Fh-x05">
@@ -330,6 +441,10 @@ Affirmations are positive statements or reminders one can say to oneself for enc
             <point key="canvasLocation" x="1970.7692307692307" y="-430.09478672985779"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="b7G-Tt-MEb"/>
+        <segue reference="ivd-2e-gSg"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
