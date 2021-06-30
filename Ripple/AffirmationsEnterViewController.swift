@@ -14,7 +14,7 @@ var affirmation4 = ""
 var affirmation5 = ""
 
 class AffirmationsEnterViewController: UIViewController {
-    
+    //This is america :)
     @IBOutlet weak var firstAffirmationTextBox: UITextField!
     @IBOutlet weak var secondAffirmationTextBox: UITextField!
     @IBOutlet weak var thirdAffirmationTextBox: UITextField!
