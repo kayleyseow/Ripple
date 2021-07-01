@@ -75,7 +75,7 @@
             <objects>
                 <viewController id="cAe-DO-DVt" customClass="GratitudeEnterViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pi5-lj-W3k">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Let's start! What are you grateful for today?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7PJ-cK-bqI">
@@ -215,7 +215,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y03-4d-SS3">
                                 <rect key="frame" x="51" y="181" width="288" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Roles are the different positions you see yourself as. Each role has its own meaning and expectations that guide your behavior. There are several ways of perceiving yourself. Some are considered important and significant enough to be considered as part of your identity. This might include your occupation (doctor, carpenter, etc.), social relationships (husband/wife, coworker, etc.), familial relationship (mother, brother, etc.), quasi-occupations (volunteer, etc.), spirituality (Christian, etc.)  and more. Your roles are constantly changing, and that’s okay! </mutableString>
+                                <string key="text">Roles are the different positions you see yourself as. Each role has its own meaning and expectations that guide your behavior. There are several ways of perceiving yourself. Some are considered important and significant enough to be considered as part of your identity. This might include your occupation (doctor, carpenter, etc.), social relationships (husband/wife, coworker, etc.), familial relationship (mother, brother, etc.), quasi-occupations (volunteer, etc.), spirituality (Christian, etc.)  and more. Your roles are constantly changing, and that’s okay! </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -290,7 +290,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kq-MH-cQe">
                                 <rect key="frame" x="51" y="188" width="288" height="395"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Values are individual beliefs that you hold important to your way of living. They are a guide to your decisions. Knowing your values can help you understand your level of happiness. For example, if you are discontent with your job that heavily relies on collaboration, maybe you value individuality. Some values, such as freedom and love, have intrinsic worth. Other values describe traits or behaviors that help an end-goal. For example, responsibility, courage, and ambition. These values can be weighed against each other in ethical-decision making. Lastly, there are sacred values that are considered fundamental to those that believe in them. </mutableString>
+                                <string key="text">Values are individual beliefs that you hold important to your way of living. They are a guide to your decisions. Knowing your values can help you understand your level of happiness. For example, if you are discontent with your job that heavily relies on collaboration, maybe you value individuality. Some values, such as freedom and love, have intrinsic worth. Other values describe traits or behaviors that help an end-goal. For example, responsibility, courage, and ambition. These values can be weighed against each other in ethical-decision making. Lastly, there are sacred values that are considered fundamental to those that believe in them. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -365,7 +365,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A5-VU-lKU">
                                 <rect key="frame" x="50" y="184" width="288" height="351"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Skills are our expertises and strong points as human beings. Skills can include attributes that show up in our identity as qualities, talents, and what we do well. These don’t have to necessarily be the ones we are “born” with. It can be the talents and characteristics we develop in our life. This part of our identity is changeable with time and effort. These activities simply feel “right” and we are motivated to do them. It’s important to know what they are to figure out who we are and use them in our purpose. Also, you can pick skills you want to have and build them up in your persona to be included in your identity. </mutableString>
+                                <string key="text">Skills are our expertises and strong points as human beings. Skills can include attributes that show up in our identity as qualities, talents, and what we do well. These don’t have to necessarily be the ones we are “born” with. It can be the talents and characteristics we develop in our life. This part of our identity is changeable with time and effort. These activities simply feel “right” and we are motivated to do them. It’s important to know what they are to figure out who we are and use them in our purpose. Also, you can pick skills you want to have and build them up in your persona to be included in your identity. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -447,29 +447,20 @@ According to Oxford Languages, gratitude is “the quality of being thankful; re
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeR-NI-xwj">
-                                <rect key="frame" x="26" y="152" width="345" height="292"/>
+                                <rect key="frame" x="29" y="114" width="345" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Why Gratitude Matters:
-Gratitude allows people to form and maintain better relationships with themselves and others. According to Harvard Health, “In positive psychology research, gratitude is strongly and consistently associated with greater happiness. Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships. People feel and express gratitude in multiple ways.” Practicing gratitude is a part of the ripple effect that can lead to a better state of one’s being. </string>
+Gratitude allows people to form and maintain better relationships with themselves and others. According to Harvard Health, “Gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships.” Practicing gratitude is a part of the ripple effect that can lead to a better state of one’s being. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ET-OE-g60">
-                                <rect key="frame" x="26" y="423" width="345" height="191"/>
+                                <rect key="frame" x="16" y="365" width="345" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">How To Do It:
-Gratitude can be expressed in many different ways but one common practice is writing down things, people, and/or experiences that you are grateful for. Reflecting upon gratitude can make such a big difference in your life. Gratitude can also be expressed verbally or mentally! </string>
+One common practice is writing down things, people, and/or experiences that you are grateful for. Gratitude can also be expressed verbally or mentally! </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-Pp-pqe">
-                                <rect key="frame" x="23" y="573" width="331" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Examples:
-A few things that someone could be thankful for are good health, family/friends, pets, food/water, experiences, specific things that people have said to you or done for you ...the possibilities are endless.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -482,6 +473,15 @@ A few things that someone could be thankful for are good health, family/friends,
                                     <segue destination="cAe-DO-DVt" kind="show" id="ivd-2e-gSg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-Pp-pqe">
+                                <rect key="frame" x="20" y="513" width="331" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Examples:
+A few things that someone could be thankful for are good health, family/friends, pets, food/water, experiences, specific things that people have said to you or done for you ...the possibilities are endless.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3dY-wC-ZOh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -557,7 +557,7 @@ A few things that someone could be thankful for are good health, family/friends,
             <objects>
                 <viewController id="zhS-uM-the" customClass="AffirmationInformationViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Affirmations " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfM-sH-MBa">
@@ -609,7 +609,7 @@ Find the best method that works for you! You can either a) say affirmations out 
                                 <rect key="frame" x="16" y="167" width="358" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Why Affirmations Matter: 
-Because your thoughts matter. What you think leads to your actions and what you do determines the outcome of your life. If you’re thinking positive and feeding yourself reassurance, all of that will be conducive to your own individual success. Whether you’re struggling with self-esteem or self-doubt, affirmations that resonate with you will help motivate you to accomplish your goals and exude qualities you desire. Repeating them often will help you make a positive ripple in your life. </string>
+Because your thoughts matter. What you think leads to your actions and what you do determines the outcome of your life. If you’re thinking positive and feeding yourself reassurance, all of that will be conducive to your own individual success. Affirmations that resonate with you will help motivate you to accomplish your goals and exude qualities you desire, making a positive ripple in your life.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -629,7 +629,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
             <objects>
                 <viewController id="CfF-5F-i2Z" customClass="AffirmationsEnterViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Kb-6D-04q">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgT-Fh-x05">
@@ -807,9 +807,9 @@ Because your thoughts matter. What you think leads to your actions and what you 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="T1B-OP-Ij1"/>
-        <segue reference="B4F-8z-fxo"/>
-        <segue reference="ywc-QG-Gbq"/>
+        <segue reference="b7G-Tt-MEb"/>
+        <segue reference="ivd-2e-gSg"/>
+        <segue reference="Wap-sQ-4SN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
