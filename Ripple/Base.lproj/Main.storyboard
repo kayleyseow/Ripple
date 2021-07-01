@@ -197,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="990.76923076923072" y="828.90995260663499"/>
         </scene>
-        <!--View Controller-->
+        <!--Role View Controller-->
         <scene sceneID="gJb-VQ-EWD">
             <objects>
-                <viewController id="uzG-JV-8bs" sceneMemberID="viewController">
+                <viewController id="uzG-JV-8bs" customClass="RoleViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Pf-Rb-TXE">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -234,8 +234,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) Reflect on your impact (Tip: How have you positively influenced those around you?)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tb6-4r-Nk2">
-                                <rect key="frame" x="89" y="673" width="232" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3) Reflect on your impact " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tb6-4r-Nk2">
+                                <rect key="frame" x="89" y="652" width="232" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -263,6 +263,14 @@
                                 <rect key="frame" x="189" y="138" width="150" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zt7-Do-W4I">
+                                <rect key="frame" x="276" y="667" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="💡"/>
+                                <connections>
+                                    <action selector="LightBulbTip:" destination="uzG-JV-8bs" eventType="touchUpInside" id="0no-7H-AZS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YK0-ym-1M7"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
