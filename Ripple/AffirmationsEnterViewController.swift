@@ -63,6 +63,10 @@ class AffirmationsEnterViewController: UIViewController {
     }
     
     @IBAction func affirmFinishedSubmit(_ sender: UIButton) {
+        affirmation1 = "\(firstAffirmationTextBox.text ?? "")"
+        affirmation2 = "\(secondAffirmationTextBox.text ?? "")"
+        affirmation3 = "\(thirdAffirmationTextBox.text ?? "")"
+        affirmation4 = "\(fourthAffirmationTextBox.text ?? "")"
         affirmation5 = "\(fifthAffirmationTextBox.text ?? "")"
     }
 }

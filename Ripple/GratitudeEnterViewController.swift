@@ -47,6 +47,8 @@ class GratitudeEnterViewController: UIViewController {
         gratitude3 = "\(grat3Text.text ?? "")"
     }
     @IBAction func gratFinishedSubmit(_ sender: UIButton) {
+        gratitude1 = "\(grat1Text.text ?? "")"
+        gratitude2 = "\(grat2Text.text ?? "")"
         gratitude3 = "\(grat3Text.text ?? "")"
     }
 }
