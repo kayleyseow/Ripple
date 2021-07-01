@@ -1,5 +1,5 @@
 //
-//  RoleViewController.swift
+//  ValuesViewController.swift
 //  Ripple
 //
 //  Created by  Scholar on 7/1/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RoleViewController: UIViewController {
+class ValuesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,12 +15,11 @@ class RoleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func LightBulbTip(_ sender: Any) {
-        let alertController = UIAlertController(title: "Tip", message: "Think about how have you positively influenced those around you.", preferredStyle: UIAlertController.Style.alert)
+    @IBAction func keyTip(_ sender: Any) {
+        let alertController = UIAlertController(title: "Test", message: "Would you honestly sacrifice any of these core values for money? Have you lost any of these core values in times of stress? Will this core value last for you in the next 25 years? Would you stop holding these values if at some point they put you at a competitive disadvantage?", preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title:"Got it!", style: UIAlertAction.Style.default, handler: nil ))
         present(alertController, animated: true, completion: nil)
     }
-    
     
     
     

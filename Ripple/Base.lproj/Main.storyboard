@@ -280,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="1773.8461538461538" y="828.90995260663499"/>
         </scene>
-        <!--View Controller-->
+        <!--Values View Controller-->
         <scene sceneID="uCw-qm-cbQ">
             <objects>
-                <viewController id="ceX-Dv-Pbj" sceneMemberID="viewController">
+                <viewController id="ceX-Dv-Pbj" customClass="ValuesViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GBy-uW-FOR">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -346,6 +346,14 @@
                                 <rect key="frame" x="189" y="130" width="150" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyn-cE-x9i">
+                                <rect key="frame" x="300" y="704" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="🔑"/>
+                                <connections>
+                                    <action selector="keyTip:" destination="ceX-Dv-Pbj" eventType="touchUpInside" id="LlV-VX-Pa6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N6c-yu-x34"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -355,10 +363,10 @@
             </objects>
             <point key="canvasLocation" x="2520" y="828.90995260663499"/>
         </scene>
-        <!--View Controller-->
+        <!--Skills View Controller-->
         <scene sceneID="Wnl-nX-vkc">
             <objects>
-                <viewController id="72d-gR-ooN" sceneMemberID="viewController">
+                <viewController id="72d-gR-ooN" customClass="SkillsViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yzb-di-sbZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -421,6 +429,21 @@
                                 <rect key="frame" x="182" y="126" width="150" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4) Explain how you can develop this skill" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6D-Jo-1ZG">
+                                <rect key="frame" x="80" y="690" width="258" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1O-0X-phO">
+                                <rect key="frame" x="149" y="707" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="💡"/>
+                                <connections>
+                                    <action selector="pinTip:" destination="72d-gR-ooN" eventType="touchUpInside" id="HVr-Ny-8Ue"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GvV-B8-NjW"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -817,7 +840,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
     <inferredMetricsTieBreakers>
         <segue reference="T1B-OP-Ij1"/>
         <segue reference="B4F-8z-fxo"/>
-        <segue reference="Wap-sQ-4SN"/>
+        <segue reference="ywc-QG-Gbq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

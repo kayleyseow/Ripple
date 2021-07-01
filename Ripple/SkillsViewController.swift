@@ -1,5 +1,5 @@
 //
-//  RoleViewController.swift
+//  SkillsViewController.swift
 //  Ripple
 //
 //  Created by  Scholar on 7/1/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RoleViewController: UIViewController {
+class SkillsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,16 +15,12 @@ class RoleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func LightBulbTip(_ sender: Any) {
-        let alertController = UIAlertController(title: "Tip", message: "Think about how have you positively influenced those around you.", preferredStyle: UIAlertController.Style.alert)
+    @IBAction func pinTip(_ sender: Any) {
+        let alertController = UIAlertController(title: "Tip", message: "Use SMART: Specific, Measurable, Attainable, Relevant, and Time Bound (https://www.indeed.com/career-advice/career-development/smart-goals)", preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title:"Got it!", style: UIAlertAction.Style.default, handler: nil ))
         present(alertController, animated: true, completion: nil)
+        
     }
-    
-    
-    
-    
-    
     
     /*
     // MARK: - Navigation

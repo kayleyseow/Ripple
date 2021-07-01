@@ -18,6 +18,8 @@
 		A868BB8A268BC505004FFA9B /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB89268BC505004FFA9B /* RippleUITests.swift */; };
 		A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */; };
 		A89C7059268E3CA600B7916C /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C7058268E3CA600B7916C /* RoleViewController.swift */; };
+		A89C705B268E421300B7916C /* ValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C705A268E421300B7916C /* ValuesViewController.swift */; };
+		A89C705D268E432200B7916C /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C705C268E432200B7916C /* SkillsViewController.swift */; };
 		A8F75128268CEE9000C54819 /* AffirmationsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75127268CEE9000C54819 /* AffirmationsDisplayViewController.swift */; };
 		A8F75130268D2CAB00C54819 /* GratitudeEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F7512F268D2CAB00C54819 /* GratitudeEnterViewController.swift */; };
 		A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */; };
@@ -61,6 +63,8 @@
 		A868BB8B268BC505004FFA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsEnterViewController.swift; sourceTree = "<group>"; };
 		A89C7058268E3CA600B7916C /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		A89C705A268E421300B7916C /* ValuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuesViewController.swift; sourceTree = "<group>"; };
+		A89C705C268E432200B7916C /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		A8F75127268CEE9000C54819 /* AffirmationsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsDisplayViewController.swift; sourceTree = "<group>"; };
 		A8F7512F268D2CAB00C54819 /* GratitudeEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEnterViewController.swift; sourceTree = "<group>"; };
 		A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGratitudeDisplayViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				A8F75137268D4AF800C54819 /* GratitudeInformationViewController.swift */,
 				BE81E724268E33B00031BCD3 /* HomeScreenViewController.swift */,
 				A89C7058268E3CA600B7916C /* RoleViewController.swift */,
+				A89C705A268E421300B7916C /* ValuesViewController.swift */,
+				A89C705C268E432200B7916C /* SkillsViewController.swift */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -285,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89C705B268E421300B7916C /* ValuesViewController.swift in Sources */,
 				A868BB69268BC504004FFA9B /* ViewController.swift in Sources */,
 				A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */,
 				A8F75138268D4AF800C54819 /* GratitudeInformationViewController.swift in Sources */,
+				A89C705D268E432200B7916C /* SkillsViewController.swift in Sources */,
 				A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */,
 				A8F75130268D2CAB00C54819 /* GratitudeEnterViewController.swift in Sources */,
 				BE81E725268E33B00031BCD3 /* HomeScreenViewController.swift in Sources */,
