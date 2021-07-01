@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="991" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Gratitude Information View Controller-->
         <scene sceneID="77z-NL-6bw">
             <objects>
-                <viewController id="ZRd-yN-5d9" sceneMemberID="viewController">
+                <viewController id="ZRd-yN-5d9" customClass="GratitudeInformationViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T9E-4K-fhY">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,6 +193,7 @@ A few things that someone could be thankful for are good health, family/friends,
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go Back "/>
                                 <connections>
+                                    <action selector="goBackButtonSubmit:" destination="ZRd-yN-5d9" eventType="touchUpInside" id="nJz-6S-ZBm"/>
                                     <segue destination="cAe-DO-DVt" kind="show" id="ivd-2e-gSg"/>
                                 </connections>
                             </button>

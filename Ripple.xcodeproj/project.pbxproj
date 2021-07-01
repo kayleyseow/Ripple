@@ -22,6 +22,7 @@
 		A8F75132268D2E4D00C54819 /* GratitudeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */; };
 		A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */; };
 		A8F75136268D488400C54819 /* AffirmationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */; };
+		A8F75138268D4AF800C54819 /* GratitudeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75137268D4AF800C54819 /* GratitudeInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeDisplayViewController.swift; sourceTree = "<group>"; };
 		A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGratitudeDisplayViewController.swift; sourceTree = "<group>"; };
 		A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationInformationViewController.swift; sourceTree = "<group>"; };
+		A8F75137268D4AF800C54819 /* GratitudeInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */,
 				A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */,
 				A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */,
+				A8F75137268D4AF800C54819 /* GratitudeInformationViewController.swift */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				A868BB69268BC504004FFA9B /* ViewController.swift in Sources */,
 				A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */,
+				A8F75138268D4AF800C54819 /* GratitudeInformationViewController.swift in Sources */,
 				A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */,
 				A8F75130268D2CAB00C54819 /* GratitudeEnterViewController.swift in Sources */,
 				A868BB65268BC504004FFA9B /* AppDelegate.swift in Sources */,
