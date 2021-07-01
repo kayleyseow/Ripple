@@ -75,7 +75,7 @@
             <objects>
                 <viewController id="cAe-DO-DVt" customClass="GratitudeEnterViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pi5-lj-W3k">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Let's start! What are you grateful for today?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7PJ-cK-bqI">
@@ -127,7 +127,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oVS-ms-l83"/>
-                        <color key="backgroundColor" red="0.61348980669999997" green="0.71570986510000001" blue="0.8078567982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.50893723960000004" green="0.6030831337" blue="0.80786818270000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="BaE-jY-txd"/>
                     <connections>
@@ -152,8 +152,8 @@
                                 <rect key="frame" x="123" y="177" width="145" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsT-ZR-jQB">
                                 <rect key="frame" x="55" y="254" width="281" height="299"/>
@@ -190,7 +190,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oDc-3u-IqZ"/>
-                        <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.65860052371707356" green="0.76174363286673741" blue="0.86827317768315071" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHb-ky-131" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -277,7 +277,7 @@
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YK0-ym-1M7"/>
-                        <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.6586005237" green="0.76174363290000002" blue="0.86827317770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xxt-0e-6zW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -364,7 +364,7 @@
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N6c-yu-x34"/>
-                        <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.6586005237" green="0.76174363290000002" blue="0.86827317770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VxS-Fa-jSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -458,7 +458,7 @@
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GvV-B8-NjW"/>
-                        <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.6586005237" green="0.76174363290000002" blue="0.86827317770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYb-PK-zxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -527,7 +527,7 @@ A few things that someone could be thankful for are good health, family/friends,
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3dY-wC-ZOh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.489902854" green="0.60251605509999995" blue="0.82747822999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Igc-rA-69V"/>
                 </viewController>
@@ -583,7 +583,7 @@ A few things that someone could be thankful for are good health, family/friends,
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Afi-hQ-zP1"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" red="0.489902854" green="0.60251605509999995" blue="0.82747822999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="newGrat1TextDisplay" destination="GqF-xg-NOA" id="ZJ9-ph-vGj"/>
@@ -600,7 +600,7 @@ A few things that someone could be thankful for are good health, family/friends,
             <objects>
                 <viewController id="zhS-uM-the" customClass="AffirmationInformationViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Affirmations " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfM-sH-MBa">
@@ -659,7 +659,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="B7O-mk-Fvj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72258754700000005" green="0.72230871929999996" blue="0.83315986080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="l2f-PE-cbT"/>
                 </viewController>
@@ -672,7 +672,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
             <objects>
                 <viewController id="CfF-5F-i2Z" customClass="AffirmationsEnterViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Kb-6D-04q">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgT-Fh-x05">
@@ -755,7 +755,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v5H-gM-4nY"/>
-                        <color key="backgroundColor" red="0.52420228719999995" green="0.6035239697" blue="0.79218018050000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.7225875470123031" green="0.72230871934613217" blue="0.83315986082679616" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <toolbarItems>
                         <barButtonItem width="97" style="plain" systemItem="fixedSpace" id="eUz-xz-FBf"/>
@@ -834,7 +834,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KOw-3a-6qG"/>
-                        <color key="backgroundColor" red="0.52420228719999995" green="0.6035239697" blue="0.79218018050000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.72258754700000005" green="0.72230871929999996" blue="0.83315986080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="fifthAffirmationDisplay" destination="oMa-RH-vSn" id="Caf-gy-Ab4"/>
@@ -850,22 +850,19 @@ Because your thoughts matter. What you think leads to your actions and what you 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="T1B-OP-Ij1"/>
-        <segue reference="B4F-8z-fxo"/>
-        <segue reference="ywc-QG-Gbq"/>
+        <segue reference="b7G-Tt-MEb"/>
+        <segue reference="ivd-2e-gSg"/>
+        <segue reference="Wap-sQ-4SN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="America Rose" width="500" height="500"/>
         <image name="America Seed" width="500" height="500"/>
         <image name="America Sprout" width="500" height="500"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
