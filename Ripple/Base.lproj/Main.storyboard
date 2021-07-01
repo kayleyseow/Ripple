@@ -259,10 +259,6 @@
                                     <segue destination="ceX-Dv-Pbj" kind="presentation" modalPresentationStyle="fullScreen" id="OTj-bW-oh6"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.33000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="qrG-cE-TTg">
-                                <rect key="frame" x="189" y="138" width="150" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zt7-Do-W4I">
                                 <rect key="frame" x="276" y="667" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -271,6 +267,14 @@
                                     <action selector="LightBulbTip:" destination="uzG-JV-8bs" eventType="touchUpInside" id="0no-7H-AZS"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="America Seed" translatesAutoresizingMaskIntoConstraints="NO" id="oEE-Ez-WMa">
+                                <rect key="frame" x="238" y="118" width="68" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.33000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="qrG-cE-TTg">
+                                <rect key="frame" x="59" y="754" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YK0-ym-1M7"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -342,10 +346,6 @@
                                     <segue destination="72d-gR-ooN" kind="presentation" modalPresentationStyle="fullScreen" id="1Bv-sI-4Ex"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.66000000000000003" translatesAutoresizingMaskIntoConstraints="NO" id="MsW-2c-CmF">
-                                <rect key="frame" x="189" y="130" width="150" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyn-cE-x9i">
                                 <rect key="frame" x="300" y="704" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -354,6 +354,14 @@
                                     <action selector="keyTip:" destination="ceX-Dv-Pbj" eventType="touchUpInside" id="LlV-VX-Pa6"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="America Sprout" translatesAutoresizingMaskIntoConstraints="NO" id="rqv-yw-WHV">
+                                <rect key="frame" x="223" y="91" width="84" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.66000000000000003" translatesAutoresizingMaskIntoConstraints="NO" id="MsW-2c-CmF">
+                                <rect key="frame" x="51" y="759" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N6c-yu-x34"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -425,17 +433,6 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ywc-QG-Gbq"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="LWU-9C-9Vd">
-                                <rect key="frame" x="182" y="126" width="150" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4) Explain how you can develop this skill" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6D-Jo-1ZG">
-                                <rect key="frame" x="80" y="690" width="258" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1O-0X-phO">
                                 <rect key="frame" x="149" y="707" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -444,6 +441,21 @@
                                     <action selector="pinTip:" destination="72d-gR-ooN" eventType="touchUpInside" id="HVr-Ny-8Ue"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4) Explain how you can develop this skill" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6D-Jo-1ZG">
+                                <rect key="frame" x="80" y="690" width="258" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="America Rose" translatesAutoresizingMaskIntoConstraints="NO" id="pJR-yr-BhZ">
+                                <rect key="frame" x="195" y="88" width="143" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="LWU-9C-9Vd">
+                                <rect key="frame" x="50" y="758" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GvV-B8-NjW"/>
                         <color key="backgroundColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -843,6 +855,9 @@ Because your thoughts matter. What you think leads to your actions and what you 
         <segue reference="ywc-QG-Gbq"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="America Rose" width="500" height="500"/>
+        <image name="America Seed" width="500" height="500"/>
+        <image name="America Sprout" width="500" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
