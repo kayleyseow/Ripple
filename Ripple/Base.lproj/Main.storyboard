@@ -55,7 +55,7 @@
                                     <color key="titleColor" red="0.52420228719999995" green="0.6035239697" blue="0.79218018050000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cAe-DO-DVt" kind="presentation" id="B4F-8z-fxo"/>
+                                    <segue destination="cAe-DO-DVt" kind="presentation" modalPresentationStyle="fullScreen" id="B4F-8z-fxo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -118,7 +118,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Gratitude Finished"/>
                                 <connections>
-                                    <segue destination="6ZD-p4-iKC" kind="presentation" modalPresentationStyle="fullScreen" id="jgB-mj-M6K"/>
+                                    <action selector="gratFinishedSubmit:" destination="cAe-DO-DVt" eventType="touchUpInside" id="31B-VD-844"/>
+                                    <segue destination="11W-iG-ksF" kind="presentation" id="gAc-zl-RSo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -134,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIV-uZ-zWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990.76923076923072" y="235.30805687203789"/>
+            <point key="canvasLocation" x="991" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="77z-NL-6bw">
@@ -203,7 +204,67 @@ A few things that someone could be thankful for are good health, family/friends,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cbz-SP-JX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1841.5384615384614" y="264.45497630331755"/>
+            <point key="canvasLocation" x="1717" y="-87"/>
+        </scene>
+        <!--New Gratitude Display View Controller-->
+        <scene sceneID="FRT-rS-gFz">
+            <objects>
+                <viewController id="11W-iG-ksF" customClass="NewGratitudeDisplayViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2hq-Qe-h9r">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqF-xg-NOA">
+                                <rect key="frame" x="138" y="336" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raU-jx-Xjn">
+                                <rect key="frame" x="93" y="438" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grx-1n-keI">
+                                <rect key="frame" x="67" y="648" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJy-o7-6A1">
+                                <rect key="frame" x="273" y="711" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go Home">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Wap-sQ-4SN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here is what you are grateful for today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFj-vU-eo4">
+                                <rect key="frame" x="37" y="76" width="291" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Afi-hQ-zP1"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="newGrat1TextDisplay" destination="GqF-xg-NOA" id="ZJ9-ph-vGj"/>
+                        <outlet property="newGrat2TextDisplay" destination="raU-jx-Xjn" id="ICM-5J-vl5"/>
+                        <outlet property="newGrat3TextDisplay" destination="Grx-1n-keI" id="xsT-t6-apn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNg-wN-YRX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2417" y="117"/>
         </scene>
         <!--Gratitude Display View Controller-->
         <scene sceneID="bsW-GN-gLb">
@@ -254,12 +315,12 @@ A few things that someone could be thankful for are good health, family/friends,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qw3-7S-sHU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2665" y="264"/>
+            <point key="canvasLocation" x="3118" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Affirmation Information View Controller-->
         <scene sceneID="ifd-RB-nl9">
             <objects>
-                <viewController id="zhS-uM-the" sceneMemberID="viewController">
+                <viewController id="zhS-uM-the" customClass="AffirmationInformationViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d2h-WU-K2L">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -296,6 +357,7 @@ A few things that someone could be thankful for are good health, family/friends,
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go Back"/>
                                 <connections>
+                                    <action selector="goBackSubmit:" destination="zhS-uM-the" eventType="touchUpInside" id="l3a-2b-F0T"/>
                                     <segue destination="CfF-5F-i2Z" kind="show" id="b7G-Tt-MEb"/>
                                 </connections>
                             </button>
@@ -325,7 +387,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h0Q-Ho-UqO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1427.6923076923076" y="-1140.2843601895734"/>
+            <point key="canvasLocation" x="1717" y="-942"/>
         </scene>
         <!--Affirmations Enter View Controller-->
         <scene sceneID="veA-Y5-Vxx">
@@ -401,6 +463,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="affirmFinishedSubmit:" destination="CfF-5F-i2Z" eventType="touchUpInside" id="tg1-g3-xyw"/>
                                     <segue destination="X0X-jH-F7l" kind="presentation" modalPresentationStyle="fullScreen" id="oUg-pY-TQ5"/>
                                 </connections>
                             </button>
@@ -431,7 +494,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mnB-WS-qkJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994" y="-430"/>
+            <point key="canvasLocation" x="991" y="-577"/>
         </scene>
         <!--Affirmations Display View Controller-->
         <scene sceneID="Sn0-WN-2RF">
@@ -505,12 +568,13 @@ Because your thoughts matter. What you think leads to your actions and what you 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9W7-5c-rCT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1970.7692307692307" y="-430.09478672985779"/>
+            <point key="canvasLocation" x="2418" y="-577"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="b7G-Tt-MEb"/>
         <segue reference="ivd-2e-gSg"/>
+        <segue reference="Wap-sQ-4SN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
@@ -518,6 +582,12 @@ Because your thoughts matter. What you think leads to your actions and what you 
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

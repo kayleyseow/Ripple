@@ -61,4 +61,8 @@ class AffirmationsEnterViewController: UIViewController {
     @IBAction func affirmation5TextBox(_ sender: UITextField) {
         affirmation5 = "\(fifthAffirmationTextBox.text ?? "")"
     }
+    
+    @IBAction func affirmFinishedSubmit(_ sender: UIButton) {
+        affirmation5 = "\(fifthAffirmationTextBox.text ?? "")"
+    }
 }

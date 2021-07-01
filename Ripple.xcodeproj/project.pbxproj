@@ -20,6 +20,8 @@
 		A8F75128268CEE9000C54819 /* AffirmationsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75127268CEE9000C54819 /* AffirmationsDisplayViewController.swift */; };
 		A8F75130268D2CAB00C54819 /* GratitudeEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F7512F268D2CAB00C54819 /* GratitudeEnterViewController.swift */; };
 		A8F75132268D2E4D00C54819 /* GratitudeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */; };
+		A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */; };
+		A8F75136268D488400C54819 /* AffirmationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		A8F75127268CEE9000C54819 /* AffirmationsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsDisplayViewController.swift; sourceTree = "<group>"; };
 		A8F7512F268D2CAB00C54819 /* GratitudeEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEnterViewController.swift; sourceTree = "<group>"; };
 		A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeDisplayViewController.swift; sourceTree = "<group>"; };
+		A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGratitudeDisplayViewController.swift; sourceTree = "<group>"; };
+		A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				A868BB75268BC505004FFA9B /* Info.plist */,
 				A868BB6D268BC504004FFA9B /* Ripple.xcdatamodeld */,
 				A8F75131268D2E4D00C54819 /* GratitudeDisplayViewController.swift */,
+				A8F75133268D432100C54819 /* NewGratitudeDisplayViewController.swift */,
+				A8F75135268D488400C54819 /* AffirmationInformationViewController.swift */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -275,9 +281,11 @@
 			files = (
 				A868BB69268BC504004FFA9B /* ViewController.swift in Sources */,
 				A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */,
+				A8F75134268D432100C54819 /* NewGratitudeDisplayViewController.swift in Sources */,
 				A8F75130268D2CAB00C54819 /* GratitudeEnterViewController.swift in Sources */,
 				A868BB65268BC504004FFA9B /* AppDelegate.swift in Sources */,
 				A868BB67268BC504004FFA9B /* SceneDelegate.swift in Sources */,
+				A8F75136268D488400C54819 /* AffirmationInformationViewController.swift in Sources */,
 				A8F75132268D2E4D00C54819 /* GratitudeDisplayViewController.swift in Sources */,
 				A8F75128268CEE9000C54819 /* AffirmationsDisplayViewController.swift in Sources */,
 				A868BB6F268BC504004FFA9B /* Ripple.xcdatamodeld in Sources */,

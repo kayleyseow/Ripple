@@ -46,5 +46,7 @@ class GratitudeEnterViewController: UIViewController {
     @IBAction func grat3TextAction(_ sender: UITextField) {
         gratitude3 = "\(grat3Text.text ?? "")"
     }
-    
+    @IBAction func gratFinishedSubmit(_ sender: UIButton) {
+        gratitude3 = "\(grat3Text.text ?? "")"
+    }
 }
