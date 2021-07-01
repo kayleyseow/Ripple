@@ -8,11 +8,14 @@
 import UIKit
 
 class HomeScreenViewController: UIViewController {
-
+    
+    @IBOutlet weak var affirmationsButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        affirmationsButton.layer.cornerRadius = 10
     }
     
 
