@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeScreenViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mo1-SV-qWV">
@@ -612,7 +612,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ywc-QG-Gbq"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ywc-QG-Gbq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4) Explain how you can develop this skill" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6D-Jo-1ZG">
@@ -983,6 +983,13 @@ Because your thoughts matter. What you think leads to your actions and what you 
                                     <segue destination="X0X-jH-F7l" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="oUg-pY-TQ5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMp-5H-84d">
+                                <rect key="frame" x="237" y="281" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v5H-gM-4nY"/>
                         <color key="backgroundColor" red="0.7225875470123031" green="0.72230871934613217" blue="0.83315986082679616" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -993,6 +1000,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
                     <navigationItem key="navigationItem" id="zOS-OD-EmT"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="a1TVCC" destination="YMp-5H-84d" id="fs7-mg-UWs"/>
                         <outlet property="fifthAffirmationTextBox" destination="UMF-vy-91L" id="Ecb-uz-hWA"/>
                         <outlet property="firstAffirmationTextBox" destination="on3-hF-6UP" id="HEU-LR-O71"/>
                         <outlet property="fourthAffirmationTextBox" destination="zQA-Ks-VLo" id="tEa-Y0-ZyM"/>
@@ -1092,7 +1100,7 @@ Because your thoughts matter. What you think leads to your actions and what you 
     <inferredMetricsTieBreakers>
         <segue reference="T1B-OP-Ij1"/>
         <segue reference="B4F-8z-fxo"/>
-        <segue reference="8Ov-j1-1kS"/>
+        <segue reference="ywc-QG-Gbq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="America Rose" width="500" height="500"/>

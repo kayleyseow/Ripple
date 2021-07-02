@@ -51,6 +51,8 @@ class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    @IBOutlet weak var a1TVCC: UILabel!
+    
     var afinput2ok = false
     var afinput3ok = false
     var afinput4ok = false
