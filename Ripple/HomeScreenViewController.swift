@@ -28,5 +28,10 @@ class HomeScreenViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func quoteButton(_ sender: UIButton) {
+        let alertController = UIAlertController(title: "Here's your quote", message: "quote", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+    
 }
