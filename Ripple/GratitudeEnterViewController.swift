@@ -14,6 +14,15 @@ var gratitude4 = ""
 var gratitude5 = ""
 
 class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
+    func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
+        guard let existingText = existingText else {
+            // existingText is nil, only measure based on the new text
+            return newText.count < limit
+            
+        }
+        let isAtLimit = textCount(existingText: existingText, newText: newText) < limit
+        return isAtLimit
+        }
     
     /*func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
         let text = existingText ?? ""
@@ -73,7 +82,7 @@ class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    /*func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if(textField == grat1Text){
             let strLength = grat1Text.text?.count ?? 0
             let lngthToAdd = string.count
@@ -110,7 +119,42 @@ class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
             self.g5TFCharCount.text = "\(trueCount)/140"
         }
         return true
-    }
+    }*/
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+            if(textField == grat1Text){
+                let lengthCount = textCount(existingText: grat1Text.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.g1TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == grat2Text){
+                let lengthCount = textCount(existingText: grat2Text.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.g2TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == grat3Text){
+                let lengthCount = textCount(existingText: grat3Text.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.g3TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == grat4Text){
+                let lengthCount = textCount(existingText: grat4Text.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.g4TFCharCount.text = "\(trueCount)/140"
+            }
+            else{
+                let lengthCount = textCount(existingText: grat5Text.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.g5TFCharCount.text = "\(trueCount)/140"
+            }
+            return self.textLimit(existingText: textField.text, newText: string, limit: 140)
+        }
+        func textCount(existingText: String, newText: String) -> Int {
+            let strLength = existingText.count
+            let lngthToAdd = newText.count
+            let lengthCount = strLength + lngthToAdd
+            return lengthCount
+        }
     
     /*
     // MARK: - Navigation
