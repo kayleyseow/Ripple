@@ -2,7 +2,7 @@
 //  AffirmationInformationViewController.swift
 //  Ripple
 //
-//  Created by  Scholar on 6/30/21.
+//  Created by Kayley on 6/30/21.
 //
 
 import UIKit
