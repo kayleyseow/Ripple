@@ -983,8 +983,36 @@ Because your thoughts matter. What you think leads to your actions and what you 
                                     <segue destination="X0X-jH-F7l" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="oUg-pY-TQ5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMp-5H-84d">
-                                <rect key="frame" x="237" y="281" width="128" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRd-zh-N9L">
+                                <rect key="frame" x="237" y="379" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTY-iG-aIi">
+                                <rect key="frame" x="237" y="491" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K74-6W-Tkt">
+                                <rect key="frame" x="237" y="597" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTQ-j9-aCs">
+                                <rect key="frame" x="237" y="700" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifr-HD-1Mc">
+                                <rect key="frame" x="237" y="281" width="127" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1000,7 +1028,11 @@ Because your thoughts matter. What you think leads to your actions and what you 
                     <navigationItem key="navigationItem" id="zOS-OD-EmT"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="a1TVCC" destination="YMp-5H-84d" id="fs7-mg-UWs"/>
+                        <outlet property="a1TFCharCount" destination="ifr-HD-1Mc" id="khs-Dr-GTU"/>
+                        <outlet property="a2TFCharCount" destination="jRd-zh-N9L" id="SUQ-qO-SXC"/>
+                        <outlet property="a3TFCharCount" destination="LTY-iG-aIi" id="6rD-3y-oCO"/>
+                        <outlet property="a4TFCharCount" destination="K74-6W-Tkt" id="OHh-Q4-aKS"/>
+                        <outlet property="a5TFCharCount" destination="bTQ-j9-aCs" id="f9G-6o-TDm"/>
                         <outlet property="fifthAffirmationTextBox" destination="UMF-vy-91L" id="Ecb-uz-hWA"/>
                         <outlet property="firstAffirmationTextBox" destination="on3-hF-6UP" id="HEU-LR-O71"/>
                         <outlet property="fourthAffirmationTextBox" destination="zQA-Ks-VLo" id="tEa-Y0-ZyM"/>
@@ -1098,7 +1130,8 @@ Because your thoughts matter. What you think leads to your actions and what you 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="T1B-OP-Ij1"/>
+        <segue reference="I8y-gN-nUO"/>
+        <segue reference="b7G-Tt-MEb"/>
         <segue reference="B4F-8z-fxo"/>
         <segue reference="ywc-QG-Gbq"/>
     </inferredMetricsTieBreakers>
