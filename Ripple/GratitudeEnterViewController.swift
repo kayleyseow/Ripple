@@ -22,7 +22,7 @@ class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
         }
         let isAtLimit = textCount(existingText: existingText, newText: newText) < limit
         return isAtLimit
-        }
+    }
     
     /*func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
         let text = existingText ?? ""

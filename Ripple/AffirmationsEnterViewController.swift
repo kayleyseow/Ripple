@@ -15,6 +15,16 @@ var affirmation5 = ""
 
 class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
     
+    func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
+        guard let existingText = existingText else {
+            // existingText is nil, only measure based on the new text
+            return newText.count < limit
+            
+        }
+        let isAtLimit = textCount(existingText: existingText, newText: newText) < limit
+        return isAtLimit
+    }
+    
     /*func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
         let text = existingText ?? ""
         let isAtLimit = text.count + newText.count <= limit
@@ -127,7 +137,7 @@ class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
         return updatedText.count <= 16
     }*/
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    /*func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if(textField == firstAffirmationTextBox){
             let strLength = firstAffirmationTextBox.text?.count ?? 0
             let lngthToAdd = string.count
@@ -164,7 +174,42 @@ class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
             self.a5TFCharCount.text = "\(trueCount)/140"
         }
         return true
-    }
+    }*/
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+            if(textField == firstAffirmationTextBox){
+                let lengthCount = textCount(existingText: firstAffirmationTextBox.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.a1TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == secondAffirmationTextBox){
+                let lengthCount = textCount(existingText: secondAffirmationTextBox.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.a2TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == thirdAffirmationTextBox){
+                let lengthCount = textCount(existingText: thirdAffirmationTextBox.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.a3TFCharCount.text = "\(trueCount)/140"
+            }
+            else if(textField == fourthAffirmationTextBox){
+                let lengthCount = textCount(existingText: fourthAffirmationTextBox.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.a4TFCharCount.text = "\(trueCount)/140"
+            }
+            else{
+                let lengthCount = textCount(existingText: fifthAffirmationTextBox.text ?? "", newText: string)
+                let trueCount = 140-lengthCount
+                self.a5TFCharCount.text = "\(trueCount)/140"
+            }
+            return self.textLimit(existingText: textField.text, newText: string, limit: 140)
+        }
+        func textCount(existingText: String, newText: String) -> Int {
+            let strLength = existingText.count
+            let lngthToAdd = newText.count
+            let lengthCount = strLength + lngthToAdd
+            return lengthCount
+        }
     
     /*
     // MARK: - Navigation
