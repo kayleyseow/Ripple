@@ -13,25 +13,43 @@ var affirmation3 = ""
 var affirmation4 = ""
 var affirmation5 = ""
 
-class AffirmationsEnterViewController: UIViewController, UITextViewDelegate {
-    /*didSet{
-        firstAffirmationTextBox.delegate = self
-    }
+class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
+    
     func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
         let text = existingText ?? ""
         let isAtLimit = text.count + newText.count <= limit
         return isAtLimit
     }
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        return self.textLimit(existingText: textField.text, newText: string, limit: 10)
-    }*/
+    @objc(textField:shouldChangeCharactersInRange:replacementString:) func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return self.textLimit(existingText: textField.text, newText: string, limit: 140)
+    }
 
-    @IBOutlet weak var firstAffirmationTextBox: UITextField!
-    @IBOutlet weak var secondAffirmationTextBox: UITextField!
-    @IBOutlet weak var thirdAffirmationTextBox: UITextField!
-    @IBOutlet weak var fourthAffirmationTextBox: UITextField!
-    @IBOutlet weak var fifthAffirmationTextBox: UITextField!
+    @IBOutlet weak var firstAffirmationTextBox: UITextField!{
+        didSet{
+            firstAffirmationTextBox.delegate = self
+        }
+    }
+    @IBOutlet weak var secondAffirmationTextBox: UITextField!{
+        didSet{
+            secondAffirmationTextBox.delegate = self
+        }
+    }
+    @IBOutlet weak var thirdAffirmationTextBox: UITextField!{
+        didSet{
+            thirdAffirmationTextBox.delegate = self
+        }
+    }
+    @IBOutlet weak var fourthAffirmationTextBox: UITextField!{
+        didSet{
+            fourthAffirmationTextBox.delegate = self
+        }
+    }
+    @IBOutlet weak var fifthAffirmationTextBox: UITextField!{
+        didSet{
+            fifthAffirmationTextBox.delegate = self
+        }
+    }
     
     var afinput2ok = false
     var afinput3ok = false

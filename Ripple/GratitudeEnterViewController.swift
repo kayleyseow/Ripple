@@ -13,13 +13,43 @@ var gratitude3 = ""
 var gratitude4 = ""
 var gratitude5 = ""
 
-class GratitudeEnterViewController: UIViewController {
+class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var grat1Text: UITextField!
-    @IBOutlet weak var grat2Text: UITextField!
-    @IBOutlet weak var grat3Text: UITextField!
-    @IBOutlet weak var grat4Text: UITextField!
-    @IBOutlet weak var grat5Text: UITextField!
+    func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
+        let text = existingText ?? ""
+        let isAtLimit = text.count + newText.count <= limit
+        return isAtLimit
+    }
+    
+    @objc(textField:shouldChangeCharactersInRange:replacementString:) func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return self.textLimit(existingText: textField.text, newText: string, limit: 140)
+    }
+    
+    @IBOutlet weak var grat1Text: UITextField!{
+        didSet{
+            grat1Text.delegate = self
+        }
+    }
+    @IBOutlet weak var grat2Text: UITextField!{
+        didSet{
+            grat2Text.delegate = self
+        }
+    }
+    @IBOutlet weak var grat3Text: UITextField!{
+        didSet{
+            grat3Text.delegate = self
+        }
+    }
+    @IBOutlet weak var grat4Text: UITextField!{
+        didSet{
+            grat4Text.delegate = self
+        }
+    }
+    @IBOutlet weak var grat5Text: UITextField!{
+        didSet{
+            grat5Text.delegate = self
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
