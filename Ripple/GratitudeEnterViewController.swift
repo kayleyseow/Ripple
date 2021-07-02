@@ -15,7 +15,7 @@ var gratitude5 = ""
 
 class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
     
-    func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
+    /*func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
         let text = existingText ?? ""
         let isAtLimit = text.count + newText.count <= limit
         return isAtLimit
@@ -23,7 +23,7 @@ class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
     
     @objc(textField:shouldChangeCharactersInRange:replacementString:) func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         return self.textLimit(existingText: textField.text, newText: string, limit: 140)
-    }
+    }*/
     
     @IBOutlet weak var grat1Text: UITextField!{
         didSet{
@@ -51,18 +51,67 @@ class GratitudeEnterViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    @IBOutlet weak var g1TFCharCount: UILabel!
+    @IBOutlet weak var g2TFCharCount: UILabel!
+    @IBOutlet weak var g3TFCharCount: UILabel!
+    @IBOutlet weak var g4TFCharCount: UILabel!
+    @IBOutlet weak var g5TFCharCount: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
                 view.addGestureRecognizer(tap)
+        g1TFCharCount.text = "140/140"
+        g2TFCharCount.text = "140/140"
+        g3TFCharCount.text = "140/140"
+        g4TFCharCount.text = "140/140"
+        g5TFCharCount.text = "140/140"
     }
     
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
     
-
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if(textField == grat1Text){
+            let strLength = grat1Text.text?.count ?? 0
+            let lngthToAdd = string.count
+            let lengthCount = strLength + lngthToAdd
+            let trueCount = 140-lengthCount
+            self.g1TFCharCount.text = "\(trueCount)/140"
+        }
+        else if(textField == grat2Text){
+            let strLength = grat2Text.text?.count ?? 0
+            let lngthToAdd = string.count
+            let lengthCount = strLength + lngthToAdd
+            let trueCount = 140-lengthCount
+            self.g2TFCharCount.text = "\(trueCount)/140"
+        }
+        else if(textField == grat3Text){
+            let strLength = grat3Text.text?.count ?? 0
+            let lngthToAdd = string.count
+            let lengthCount = strLength + lngthToAdd
+            let trueCount = 140-lengthCount
+            self.g3TFCharCount.text = "\(trueCount)/140"
+        }
+        else if(textField == grat4Text){
+            let strLength = grat4Text.text?.count ?? 0
+            let lngthToAdd = string.count
+            let lengthCount = strLength + lngthToAdd
+            let trueCount = 140-lengthCount
+            self.g4TFCharCount.text = "\(trueCount)/140"
+        }
+        else{
+            let strLength = grat5Text.text?.count ?? 0
+            let lngthToAdd = string.count
+            let lengthCount = strLength + lngthToAdd
+            let trueCount = 140-lengthCount
+            self.g5TFCharCount.text = "\(trueCount)/140"
+        }
+        return true
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -27,7 +27,7 @@ class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var firstAffirmationTextBox: UITextField!{
         didSet{
-            
+            firstAffirmationTextBox.delegate = self
         }
     }
     @IBOutlet weak var secondAffirmationTextBox: UITextField!{
@@ -62,12 +62,11 @@ class AffirmationsEnterViewController: UIViewController, UITextFieldDelegate {
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
                 view.addGestureRecognizer(tap)
-        firstAffirmationTextBox.delegate = self
-        a1TFCharCount.text = " /140"
-        a2TFCharCount.text = " /140"
-        a3TFCharCount.text = " /140"
-        a4TFCharCount.text = " /140"
-        a5TFCharCount.text = " /140"
+        a1TFCharCount.text = "140/140"
+        a2TFCharCount.text = "140/140"
+        a3TFCharCount.text = "140/140"
+        a4TFCharCount.text = "140/140"
+        a5TFCharCount.text = "140/140"
         //self.updateCharacterCount()
     }
     
