@@ -17,6 +17,7 @@
 		A868BB7F268BC505004FFA9B /* RippleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB7E268BC505004FFA9B /* RippleTests.swift */; };
 		A868BB8A268BC505004FFA9B /* RippleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB89268BC505004FFA9B /* RippleUITests.swift */; };
 		A868BB9A268BF66D004FFA9B /* AffirmationsEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */; };
+		A86C115A268EEAC10042C4B3 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C1159268EEAC10042C4B3 /* AboutUsViewController.swift */; };
 		A89C7059268E3CA600B7916C /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C7058268E3CA600B7916C /* RoleViewController.swift */; };
 		A89C705B268E421300B7916C /* ValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C705A268E421300B7916C /* ValuesViewController.swift */; };
 		A89C705D268E432200B7916C /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C705C268E432200B7916C /* SkillsViewController.swift */; };
@@ -62,6 +63,7 @@
 		A868BB89268BC505004FFA9B /* RippleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUITests.swift; sourceTree = "<group>"; };
 		A868BB8B268BC505004FFA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsEnterViewController.swift; sourceTree = "<group>"; };
+		A86C1159268EEAC10042C4B3 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		A89C7058268E3CA600B7916C /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
 		A89C705A268E421300B7916C /* ValuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuesViewController.swift; sourceTree = "<group>"; };
 		A89C705C268E432200B7916C /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				A868BB66268BC504004FFA9B /* SceneDelegate.swift */,
 				A868BB68268BC504004FFA9B /* ViewController.swift */,
 				A868BB6A268BC504004FFA9B /* Main.storyboard */,
+				A86C1159268EEAC10042C4B3 /* AboutUsViewController.swift */,
 				A8F7512F268D2CAB00C54819 /* GratitudeEnterViewController.swift */,
 				A8F75127268CEE9000C54819 /* AffirmationsDisplayViewController.swift */,
 				A868BB99268BF66D004FFA9B /* AffirmationsEnterViewController.swift */,
@@ -301,6 +304,7 @@
 				BE81E725268E33B00031BCD3 /* HomeScreenViewController.swift in Sources */,
 				A868BB65268BC504004FFA9B /* AppDelegate.swift in Sources */,
 				A868BB67268BC504004FFA9B /* SceneDelegate.swift in Sources */,
+				A86C115A268EEAC10042C4B3 /* AboutUsViewController.swift in Sources */,
 				A89C7059268E3CA600B7916C /* RoleViewController.swift in Sources */,
 				A8F75136268D488400C54819 /* AffirmationInformationViewController.swift in Sources */,
 				A8F75128268CEE9000C54819 /* AffirmationsDisplayViewController.swift in Sources */,
