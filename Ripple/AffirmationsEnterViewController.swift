@@ -13,7 +13,19 @@ var affirmation3 = ""
 var affirmation4 = ""
 var affirmation5 = ""
 
-class AffirmationsEnterViewController: UIViewController {
+class AffirmationsEnterViewController: UIViewController, UITextViewDelegate {
+    /*didSet{
+        firstAffirmationTextBox.delegate = self
+    }
+    func textLimit(existingText: String?, newText: String, limit: Int) -> Bool {
+        let text = existingText ?? ""
+        let isAtLimit = text.count + newText.count <= limit
+        return isAtLimit
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return self.textLimit(existingText: textField.text, newText: string, limit: 10)
+    }*/
 
     @IBOutlet weak var firstAffirmationTextBox: UITextField!
     @IBOutlet weak var secondAffirmationTextBox: UITextField!

@@ -2,7 +2,7 @@
 //  GratitudeEnterViewController.swift
 //  Ripple
 //
-//  Created by  Scholar on 6/30/21.
+//  Created by Kayley on 6/30/21.
 //
 
 import UIKit
@@ -10,12 +10,16 @@ import UIKit
 var gratitude1 = ""
 var gratitude2 = ""
 var gratitude3 = ""
+var gratitude4 = ""
+var gratitude5 = ""
 
 class GratitudeEnterViewController: UIViewController {
     
     @IBOutlet weak var grat1Text: UITextField!
     @IBOutlet weak var grat2Text: UITextField!
     @IBOutlet weak var grat3Text: UITextField!
+    @IBOutlet weak var grat4Text: UITextField!
+    @IBOutlet weak var grat5Text: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,5 +54,7 @@ class GratitudeEnterViewController: UIViewController {
         gratitude1 = "\(grat1Text.text ?? "")"
         gratitude2 = "\(grat2Text.text ?? "")"
         gratitude3 = "\(grat3Text.text ?? "")"
+        gratitude4 = "\(grat4Text.text ?? "")"
+        gratitude5 = "\(grat5Text.text ?? "")"
     }
 }
